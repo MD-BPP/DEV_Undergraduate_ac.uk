@@ -62,12 +62,13 @@ header {
 
 @media (max-width: 350px) {
     header {
-        position: absolute;
+        position: fixed;
     }
 }
 
 @media (max-width: 600px) {
     header {
         height: auto;
+        position: fixed;
     }
 }
